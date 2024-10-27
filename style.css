@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    margin-bottom: 1000px;
+}
+.imageone{
+    display:none
+}
+.firstdiv p, h2{
+    margin: 20px;
+}
+.firsth2{
+    font-size: 44px;
+    font-weight: bold;
+    font-family: arial;
+    line-height: 44px;
+}
+.imagegirl{
+    width: 100%;
+    margin: 0;
+}
+
+@media only screen and (min-width: 768px){
+    .imageone{
+        display: unset;
+        width: 100%;
+        height: 700px;
+        position: relative;
+    }
+    .firstdiv{
+        position: absolute;
+        top: 100px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 20px;
+        padding: 0 20px;
+    }
+    .firstdiv p, h2{
+        margin: 20px;
+    }
+    .firsth2{
+        font-size: 44px;
+        font-weight: bold;
+        font-family: arial;
+        line-height: 44px;
+        text-align: center;
+    }
+    .imagegirl{
+        height: 200px;  
+        width: 200px;
+        padding: 70px 250px;
+    }
+}
+
+@media only screen and (min-width: 1068px){
+    .imageone{
+        display: unset;
+        width: 100%;
+        height: 700px;
+        position: relative;
+        filter: brightness(50%);
+    }
+    .firstdiv{
+        position: absolute;
+        top: 100px;
+    }
+    .firstdiv p{
+        padding-top: 50px;
+        color: white;
+        padding-left: 100px;
+    }
+    .firsth2{
+        font-size: 44px;
+        font-weight: bold;
+        font-family: arial;
+        line-height: 44px;
+        text-align: center;
+        color: white;
+    }
+    .container{
+        display: flex;
+    }
